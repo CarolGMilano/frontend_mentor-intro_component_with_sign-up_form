@@ -1,0 +1,23 @@
+@import url('main.css');
+@import url('textos.css');
+@import url('cadastro.css');
+@import url('formulario.css');
+
+@import url('responsividade/resp-main.css');
+@import url('responsividade/resp-textos.css');
+@import url('responsividade/resp-cadastro.css');
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    --cinza_claro: hsl(246, 25%, 77%);
+    --preto_sombra: hsla(0, 0%, 0%, 0.2);
+    --rosa: hsl(0, 100%, 74%);
+    --roxo: hsl(248, 32%, 49%);
+    --roxo_escuro: hsl(249, 10%, 26%);
+    --verde: hsl(154, 59%, 51%);
+    --verde_hover: hsla(154, 59%, 51%, 0.8);
+    --verde_sombra: hsl(154, 61%, 41%);
+    --verde_sombra_hover: hsla(154, 61%, 41%, 0.5);
+
+    --fonte: 'Poppins', sans-serif;
+}

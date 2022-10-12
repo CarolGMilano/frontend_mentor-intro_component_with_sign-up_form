@@ -1,0 +1,20 @@
+@media screen and (min-width: 800px) {
+    .textos {
+        justify-content: center;
+        max-width: 450px;
+    }
+
+    .textos__titulo {
+        font-size: 38px;
+        line-height: 2.8rem;
+    }
+
+    .textos__subtitulo {
+        font-size: 14px;
+    }
+
+    .textos__titulo,
+    .textos__subtitulo {
+        text-align: start;
+    }
+}

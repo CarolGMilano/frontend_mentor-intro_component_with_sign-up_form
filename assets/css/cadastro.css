@@ -1,0 +1,47 @@
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1.2rem;
+}
+
+.cadastro__aviso {
+    background-color: var(--roxo);
+    border-radius: 10px;
+    box-shadow: var(--preto_sombra) 0 7px 1px;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.3rem 3rem;
+}
+
+.span__aviso {
+    font-weight: 700;
+}
+
+.cadastro__btn {
+    background-color: var(--verde);
+    border: none;
+    border-bottom: 4px solid var(--verde_sombra);
+    border-radius: 5px;
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s;
+    padding: .8rem;
+}
+
+.cadastro__termos {
+    color: var(--cinza_claro);
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0 1.5rem;
+}
+
+.link__termos {
+    color: var(--rosa);
+    font-weight: 700;
+    transition: .3s;
+}

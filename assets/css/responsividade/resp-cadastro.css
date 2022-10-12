@@ -1,0 +1,20 @@
+@media screen and (min-width: 800px) {
+    .cadastro {
+        max-width: 550px
+    }
+
+    .cadastro__aviso {
+        font-size: 14px;
+        padding: .8rem;
+    }
+
+    .cadastro__btn:hover {
+        background-color: var(--verde_hover);
+        border-bottom-color: var(--verde_sombra_hover);
+        cursor: pointer;
+    }
+
+    .link__termos:hover {
+        text-decoration: underline;
+    }
+}

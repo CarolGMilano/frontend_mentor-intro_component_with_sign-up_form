@@ -1,0 +1,18 @@
+.textos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.textos__titulo {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textos__subtitulo {
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 16px;
+}

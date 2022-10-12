@@ -1,0 +1,43 @@
+.cadastro__formulario {
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: var(--preto_sombra) 0 7px 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    row-gap: 1.3rem;
+}
+
+.form__container {
+    position: relative;
+}
+
+.form {
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 1.5rem;
+    width: 100%;
+}
+
+.form::placeholder {
+    font-family: var(--fonte);
+    font-weight: 700;
+}
+
+.form__cor::placeholder {
+    color: var(--roxo_escuro);
+}
+
+.form__cor--erro::placeholder {
+    color: var(--rosa);
+}
+
+.form__span {
+    color: var(--rosa);
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: end;
+    padding-bottom: .5rem;
+}
+
